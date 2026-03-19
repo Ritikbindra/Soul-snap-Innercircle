@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inner Circle Perks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+    }
+    .blob {
+      filter: blur(38px);
+      opacity: 0.22;
+    }
+  </style>
+</head>
+<body class="bg-white text-neutral-900">
+  <div class="relative min-h-screen overflow-hidden">
+    <div class="blob absolute -top-16 -left-10 h-56 w-56 rounded-full bg-pink-400"></div>
+    <div class="blob absolute top-24 right-0 h-64 w-64 rounded-full bg-yellow-300"></div>
+    <div class="blob absolute bottom-16 left-1/4 h-60 w-60 rounded-full bg-cyan-300"></div>
+    <div class="blob absolute bottom-0 right-20 h-56 w-56 rounded-full bg-violet-400"></div>
+
+    <main class="relative z-10 mx-auto max-w-7xl px-8 py-12">
+      <div class="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+        <div>
+          <p class="mb-4 text-2xl font-black tracking-tight text-neutral-900">Soul Snap</p>
+          <h1 class="max-w-3xl text-4xl font-black leading-tight tracking-tight md:text-6xl">
+            Inner Circle Perks
+          </h1>
+          <p class="mt-4 max-w-2xl text-lg leading-8 text-neutral-600">
+            A vibrant, curated community for people who want real experiences, real people, and real connection.
+          </p>
+        </div>
+        <div class="rounded-3xl border border-neutral-200 bg-white/90 px-5 py-4 shadow-lg backdrop-blur">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-neutral-500">The vibe</p>
+          <p class="mt-2 text-base font-medium text-neutral-800">Curated. Creative. No judgment. Community-first.</p>
+        </div>
+      </div>
+
+      <section class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div class="space-y-5 rounded-[32px] border border-pink-100 bg-gradient-to-br from-pink-50 to-rose-50 p-7 shadow-sm">
+          <div class="inline-flex rounded-full bg-pink-500 px-4 py-1 text-xs font-bold uppercase tracking-[0.22em] text-white">Community</div>
+          <h2 class="text-2xl font-black tracking-tight">A room full of your kind of people.</h2>
+          <div class="space-y-4">
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Super filtered group</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Invite only, curated for like mindedness.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Quality community is the product</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">All like minded people. That is the real value here.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">No judgment zone</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Be yourself, explore freely, and show up as you are.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Find your 2am buddies</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Build deep connections with people who actually get you.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-5 rounded-[32px] border border-cyan-100 bg-gradient-to-br from-cyan-50 to-sky-50 p-7 shadow-sm">
+          <div class="inline-flex rounded-full bg-cyan-500 px-4 py-1 text-xs font-bold uppercase tracking-[0.22em] text-white">Access</div>
+          <h2 class="text-2xl font-black tracking-tight">More than events. Real access.</h2>
+          <div class="space-y-4">
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Mentor-led sessions</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">1–2 mentor led skill sharing sessions every month.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Plus one access</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Once a month, bring a friend to one Soul Snap event.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Monthly curated calendar</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Know what is coming for the month, ahead of time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-5 rounded-[32px] border border-violet-100 bg-gradient-to-br from-violet-50 to-fuchsia-50 p-7 shadow-sm">
+          <div class="inline-flex rounded-full bg-violet-500 px-4 py-1 text-xs font-bold uppercase tracking-[0.22em] text-white">Experiences</div>
+          <h2 class="text-2xl font-black tracking-tight">Built with the community, not just for it.</h2>
+          <div class="space-y-4">
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Community-led experiences</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Give and take. You do not just attend, you can host too.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">By the community, for the community</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Experiences curated by the community, for the community.</p>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4">
+              <h3 class="font-bold">Serious about experiences</h3>
+              <p class="mt-1 text-sm leading-6 text-neutral-700">Only for people who are genuinely keen to explore and participate.</p>
+            </div>
+          </div>
+
+          <div class="rounded-[28px] border border-neutral-200 bg-white p-5 shadow-sm">
+            <p class="text-xs font-bold uppercase tracking-[0.25em] text-neutral-500">Soul Snap Inner Circle</p>
+            <p class="mt-3 text-lg font-semibold leading-8 text-neutral-900">Curated people. Thoughtful access. Experiences worth showing up for.</p>
+            <div class="mt-5 inline-flex rounded-full bg-neutral-900 px-5 py-2 text-sm font-semibold text-white">Apply for Inner Circle</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
